@@ -81,7 +81,7 @@ namespace DemoSelenium
         }
         public string XpartData(int data)
         {
-            return "//span[contains(@class,'kt-font-dark')] [contains(text(),'" + data + "')]";
+            return "//div[@class='kt-widget6__item'][2]//span[contains(@class,'kt-font-dark')] [contains(text(),'" + data + "')]";
         }
     }
 
