@@ -161,6 +161,9 @@ namespace DemoSelenium
             //xac dinh case 
             Assert.IsTrue(actual);
 
+            base.Click("//i[@class='fas fa-cloud-upload-alt']");
+            base.Click("//a[@href='/ESM/TTDBanChaoChuKyToiChiTiet']");
+
         }
 
 

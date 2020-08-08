@@ -1,0 +1,13 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace DemoSelenium.Models
+{
+    public partial class TtdkeHoachHuyDongToMayNgayToi
+    {
+        public int Id { get; set; }
+        public int ChuKy { get; set; }
+        public decimal GiaTri { get; set; }
+        public int IdDinhDanhToMayNgay { get; set; }
+    }
+}
